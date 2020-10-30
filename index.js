@@ -4,6 +4,8 @@ const url = require('url');
 const electron = require('electron');
 const ipc = electron.ipcRenderer;
 
+console.log('fone');
+
 const newWindowBtn = document.getElementById('newWindow');
 newWindowBtn.addEventListener('click', function(event) {
     let win2 = new BrowserWindow({
